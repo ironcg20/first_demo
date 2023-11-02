@@ -1,0 +1,379 @@
+body link {
+	text-decoration: none! important;
+}
+
+body {
+	background-color: #fdfdfd;
+	font-family: Poppins! important;
+}
+
+#header {
+	background-color: #EEEEEE;
+}
+
+#banner {
+	background-color: #EEEEEE;
+}
+.navbar {
+	width: 100%;
+/*	heihgt: 140px;*/
+}
+
+.v-margin {
+	height:10rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-gap: 20px; /* Adjust the gap between items as needed */
+}
+
+/* Style for individual grid items */
+.grid-item {
+    border: 1px solid #ccc; /* Add a border or other styling as desired */
+    padding: 20px; /* Add padding or styling as needed */
+    text-align: center; /* Center the content horizontally */
+/*    height: 250px;*/
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.grid-item h3 {
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 37.5px;
+	text-align: center;
+}
+
+.w-47 {
+	width:47%! important;
+}
+
+.h-95 {
+	height:95%! important;
+}
+
+.font-20 {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#subscribe-input {
+	border:1px solid #F47820;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	vertical-align:center;
+	padding-right: 0.3rem;
+	padding-left: 1rem;
+}
+
+#subscribe-input input {
+	border: none;
+	width: 300px;
+}
+
+#subscribe-input input:active {
+	border: none;
+}
+
+#subscribe-input button {
+	background-color: #006838;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+}
+
+.foot-sub-title {
+	list-style-type: none;
+	font-weight: bolder;
+}
+
+.foot-link {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.foot-link a {
+	text-decoration: none;
+	color: #969696;
+}
+
+.foot-link-2 {
+	text-decoration: none;
+	color: #969696;
+}
+
+.between {
+	margin-left:1rem;
+	margin-right: 1rem;
+	color: black;
+	font-size: 20px;
+}
+
+ .circle-btn {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    border-radius: 50%; /* Makes the button circular */
+    background-color: #FFA500; /* Orange color */
+    border: none; /* Remove button border */
+/*    color: white;  Text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.round-tag {
+	border-radius: 50%;
+	width: 3.5rem! important;
+	height: 3.5rem! important;
+	display: inline-block;
+	line-height: 3.5rem;
+	text-align: center;
+	padding:0.5 1;
+	font-size: 2rem;
+	top:-0.4rem;left:-0.4rem;
+	position: absolute;
+
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 60px;
+}
+
+#text-copywrite {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22.5px;
+	margin-right: 5rem;
+}
+
+#mask {
+	background-image: url(../img/Mask_group.png);
+	background-repeat: no-repeat;
+/*	height: 400px;*/
+}
+
+#card-text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#mask h3 {
+	font-weight: 700;
+	font-size: 62px;
+	line-height: 93px;
+}
+
+.p-template {
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+} 
+
+.c-card {
+	background-color: #FFDAC0;
+	border-radius: 1.1rem;
+}
+
+.c-card .c-caption {
+	text-align: center;
+	color: #F47820;
+}
+
+#back_aboutus {
+	position: absolute;
+	z-index: -1;
+	display: flex;
+    justify-content: center; /* Center horizontally */
+/*    align-items: center; /* Center vertically */*/
+    height:100%; /* Center vertically */
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+#back_aboutus img {
+	zoom: 0.8;
+}
+
+#img-container {
+	display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height:inherit; /* Center vertically */
+    position: absolute;
+    right: 0;
+}
+
+.text-right {
+	text-align:right;
+}
+
+.w-10 {
+	width: 10%;
+}
+
+#img-container img {
+	width: 500px;
+	height:500px;
+}
+
+.title {
+	font-family: Poppins;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.font-poppins {
+	font-family: Poppins;
+	font-weight: 400px;
+}
+
+#text-top-categories {
+	text-align: center;
+/*	color: white;*/
+}
+
+.c-card-2 {
+	border-radius: 20px;
+	width: 28rem;
+	background-color:white;
+}
+
+.c-card-2 h2 {
+	font-weight: bolder;
+}
+
+.c-card-2 button {
+	color: white;
+	background-color: black;
+	width: 100%;
+}
+
+.c-card-3 {
+	background-color:white;
+	border-radius: 20px;
+}
+
+.c-card-3 * {
+	text-align: center;
+}
+
+.c-card-3 h4 {
+	color: #F47820;
+}
+
+#free-discount {
+	background-image: linear-gradient(to right, #F47820, #f4d2ba);
+	border-radius: 10px;
+	padding-top: 1rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-bottom: 1rem;
+	color: white;
+	width: 350px;
+	opacity: 0.8;
+}
+#tag-off {
+	border-radius: 3px;
+	background-color: #F47820;
+	color: white;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+#top-categories {
+	background-color: #fc7e34;
+}
+
+#aboutus {
+	background-image: url(../img/back_aboutus.png);
+	background-repeat: no-repeat;
+}
+
+.center-vertically {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /* Set the height of the container as needed */
+ }
+
+
+#buy {
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #000000, #4d3c30);
+}
+
+#buy {
+	color:#ffffff;
+}
+
+#buy button {
+	background-color: #006838;
+	color: #ffffff;
+}
+
+.round {
+	border-radius: 20px;
+}
+
+.round-sm {
+	border-radius: 5px;
+}
+
+.btn-orange {
+	border-radius: 10px;
+	background-color: #F47820;
+	border-color: transparent;
+	color: white;
+	font-size: 20px;
+}
+
+.color-orange-bright {
+	color: #FFDAC0;
+}
+
+.color-orange-dark {
+	color: #F47820;
+}
+
+.bg-orange-bright {
+	background-color: #FFDAC0;
+}
+
+.bg-orange-dark {
+	background-color: #F47820;
+}
+
+.text-white {
+	color: white;
+}
+
+#footer {
+	background-color: #EEEEEE;
+}
+
+#footer-link {
+	
+}
+
+#footer-contact {
+	border-top: 1px #000000 solid;
+}
+
