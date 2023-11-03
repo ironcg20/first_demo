@@ -12,7 +12,11 @@ body {
 }
 
 #banner {
-	background-color: #EEEEEE;
+	background-image: url(../img/back.png);
+/*	background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	width: 100%;*/
 }
 .navbar {
 	width: 100%;
@@ -186,11 +190,19 @@ body {
 .c-card {
 	background-color: #FFDAC0;
 	border-radius: 1.1rem;
+/*	zoom:0.9;*/
+}
+
+.c-card img {
+	zoom:0.7;
 }
 
 .c-card .c-caption {
 	text-align: center;
 	color: #F47820;
+	font-weight: 700;
+	line-height: 30.48px;
+	margin-top: 2rem;
 }
 
 #back_aboutus {
@@ -285,7 +297,7 @@ body {
 	padding-right: 5rem;
 	padding-bottom: 1rem;
 	color: white;
-	width: 350px;
+	width: 380px;
 	opacity: 0.8;
 }
 #tag-off {
@@ -299,12 +311,24 @@ body {
 }
 
 #top-categories {
-	background-color: #fc7e34;
+	margin-top: 25rem;
+/*	background-color: #fc7e34;*/
 }
 
 #aboutus {
 	background-image: url(../img/back_aboutus.png);
 	background-repeat: no-repeat;
+}
+
+#category-container {
+	background-color: #fbfbfb;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left:1.5rem;
+	padding-right: 1.5rem;
+	border-radius: 20px;
+	margin-left: 3rem;
+	margin-right: 3rem;
 }
 
 .center-vertically {
